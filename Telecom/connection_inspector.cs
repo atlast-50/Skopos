@@ -449,7 +449,7 @@ internal class ConnectionInspector : principia.ksp_plugin_adapter.SupervisedWind
   }
 
   public void RenderButton() {
-    if (UnityEngine.GUILayout.Button("Inspect…")) {
+    if (UnityEngine.GUILayout.Button("Inspect…", UnityEngine.GUILayout.ExpandWidth(false))) {
       Toggle();
     }
   }
